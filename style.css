@@ -68,4 +68,6 @@ article {
 .my-name {
   width: 100%;
   border: 2px solid gold;
+  text-transform: uppercase;
+  font-size: 3rem;
 }
