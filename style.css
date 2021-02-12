@@ -6,12 +6,11 @@ header {
   text-align: center;
   display: flex;
   justify-content: flex-end;
-  margin: 2px;
-  position: fixed;
 }
 
 nav {
   justify-content: space-between;
+  position: fixed;
 }
 
 a {
@@ -45,15 +44,12 @@ article {
   flex-direction: column;
   justify-content: center;
   height: 80vh;
-  border: 4px solid wheat;
-
 }
 
 .home {
   display: flex;
   align-items: center;
   flex-direction: column;
-  border: 2px solid white;
 }
 
 .salutation {
@@ -103,4 +99,7 @@ article {
   position: fixed;
   justify-content: space-between;
   height: 15%;
+  /* right: 44rem; */
+  left: 2.4rem;
+  bottom: 2.4rem;
 }
