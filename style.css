@@ -7,6 +7,7 @@ header {
   display: flex;
   justify-content: flex-end;
   margin: 2px;
+  position: fixed;
 }
 
 nav {
@@ -80,6 +81,8 @@ article {
   background:linear-gradient(#4196fe 10%, #3340fc);
   font-size: 1rem;
   padding: 4px;
+  outline: none;
+  border: none;
 }
 
 .profile-btn .dot {
@@ -93,4 +96,11 @@ article {
   background-color: #fff;
   border-radius: 50%;
   display: inline-block;
+}
+.social-links{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  justify-content: space-between;
+  height: 15%;
 }
