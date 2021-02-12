@@ -59,15 +59,18 @@ article {
 .salutation {
   display: flex;
   flex-direction: column;
-  border: 2px solid green;
   width: 100%;
-  margin: 1px;
-  padding: 1px;
 }
 
 .my-name {
   width: 100%;
-  border: 2px solid gold;
   text-transform: uppercase;
   font-size: 3rem;
+  margin-top: 0.8rem;
+}
+.home .intro {
+  font-size: 1rem;
+  position: relative;
+  bottom: 1.5rem;
+  left: 1rem;
 }
