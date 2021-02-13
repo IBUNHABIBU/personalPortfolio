@@ -77,7 +77,7 @@ article {
 .profile-btn{
   color: #fff;
   background:linear-gradient(#4196fe 10%, #3340fc);
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 4px;
   outline: none;
   border: none;
@@ -208,4 +208,122 @@ article {
 .link-btns .btn-container .live {
   padding: 0.5rem;
   font-size: 1.1rem;
+}
+
+.about-page {
+  width: 100%;
+}
+
+.about-container {
+  display: flex;
+  padding-left: 7rem;
+  padding-right: 4rem;
+  color: #fff;
+}
+
+.about-content {
+  padding: 2rem 6rem 8rem 8rem;
+}
+
+.about-paragraph {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.about-heading {
+  text-align: center;
+  border-bottom: 0.2rem solid #fff;
+  padding-bottom: 0.4rem;
+  width: 20%;
+  position: relative;
+  left: 9rem;
+}
+
+.skill-container {
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+
+.skill-heading {
+  color: #fff;
+  text-align: left;
+  border-bottom: 0.1rem solid #fff;
+  padding-bottom: 0.2rem;
+  width: 8%;
+  position: relative;
+  left: 22rem;
+}
+
+.lang {
+  background: #111217;
+  width: 10vw;
+  box-shadow: 4px;
+}
+
+.lang-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-lang {
+  color: #fff;
+  height: 3rem;
+  text-align: center;
+  padding-top: 1rem;
+  text-transform: uppercase;
+}
+
+.lang img {
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  top: 1.4rem;
+  left: 1.6rem;
+}
+
+.lang-group {
+  margin: 1rem;
+}
+
+.move-down {
+  position: relative;
+  top: 1rem;
+  margin-top: 2rem;
+}
+
+.contact-container {
+  padding-top: 2rem;
+  margin-top: 2rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.email {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.phone {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+#projects {
+  padding-top: 6rem;
+}
+
+#about {
+  padding-top: 6rem;
 }
