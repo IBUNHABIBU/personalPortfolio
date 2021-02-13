@@ -71,7 +71,8 @@ article {
   font-size: 1rem;
   position: relative;
   bottom: 1.5rem;
-  left: 1rem;
+  left: 2.4rem;
+  text-align: left;
 }
 
 .profile-btn{
@@ -81,6 +82,8 @@ article {
   padding: 4px;
   outline: none;
   border: none;
+  position: relative;
+  right: 6.2rem;
 }
 
 .profile-btn .dot {
@@ -326,4 +329,8 @@ article {
 
 #about {
   padding-top: 6rem;
+}
+
+#home {
+  padding-top: 12rem;
 }
