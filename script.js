@@ -11,3 +11,9 @@ const changeColor = (e) => {
   }
 }
 header.addEventListener('click', changeColor)
+
+const slide1 = document.getElementById('slide1');
+const addHeref = (e) => {
+  const hel = document.querySelectorAll()
+}
+slide1.addEventListener('click', addHeref);

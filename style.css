@@ -21,6 +21,7 @@ a {
   color: #fff;
   text-transform: uppercase;
   margin: 1.4rem;
+  cursor: pointer;
 }
 
 ul {
@@ -86,6 +87,7 @@ article {
   border: none;
   position: relative;
   right: 6.2rem;
+  text-transform: capitalize;
 }
 
 .profile-btn .dot {
@@ -238,7 +240,7 @@ button:hover {
 .btn-container {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 88%;
   align-items: center;
 }
 
@@ -247,6 +249,18 @@ button:hover {
   justify-content: center;
   position: relative;
   left: 8rem;
+}
+
+.link-btns .btn-container a {
+  font-style: italic;
+  color: #fff;
+  background:linear-gradient(#4196fe 10%, #3340fc);
+  outline: none;
+  border: none;
+  position: relative;
+  right: 6.2rem;
+  text-transform: capitalize;
+  font-weight: bold;
 }
 
 .link-btns .btn-container .github {
