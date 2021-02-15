@@ -7,7 +7,6 @@ header {
   text-align: center;
   display: flex;
   justify-content: flex-end;
-  
 }
 
 nav {
@@ -385,7 +384,12 @@ button:hover {
 }
 
 #projects {
-  padding-top: 6rem;
+  padding-top: 2rem;
+}
+
+ #stack {
+  font-style: italic;
+  color: #fff;
 }
 
 #about {
