@@ -79,3 +79,5 @@ slider.addEventListener('click', (e) => {
     break;
   }
 })
+
+const tabButtons = document.querySelectorAll('.tabs')
