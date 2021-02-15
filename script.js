@@ -11,16 +11,16 @@ const headingForS4 = 'Social'
 const headingForS5 = 'weather app'
 
 const contentForS1 = 'The project to design custom made grid-based framework using CSS Grid'
-const contentForS2 = 'Life style article'
-const contentForS3 = 'News week'
+const contentForS2 = 'In this project users will be posting their articles with background images and ability to vote for a good article and the most voted article is placed on the front page with the big Image.'
+const contentForS3 = 'This is the HTML and CSS project to implement the concepts that I have learnt in Bootstrap.'
 const contentForS4 = ' A social media application where user may signup connect with friends, posting and liking friends post.'
-const contentForS5 = 'weather app'
+const contentForS5 = 'Is the Javascript quiz to implement the concept of API. I made a simple page to fetch for weather data.'
 
 
 const stackForS1 = 'Stack: CSS Grid'
-const stackForS2 = 'Stack: Ruby on rails, RSpec,'
+const stackForS2 = 'Stack: Ruby on rails, RSpec'
 const stackForS3 = 'Stack: Bootstrap'
-const stackForS4 = 'Stack: Ruby on rails, RSpec,'
+const stackForS4 = 'Stack: Ruby on rails, RSpec'
 const stackForS5 = 'Stack: Javascript, Webpack, OpenWeatherAPI'
 
 
