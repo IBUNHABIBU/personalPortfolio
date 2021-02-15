@@ -238,13 +238,15 @@ button:hover {
 .btn-container {
   display: flex;
   justify-content: space-between;
-  width: 74%;
+  width: 70%;
   align-items: center;
 }
 
 .link-btns {
   display: flex;
   justify-content: center;
+  position: relative;
+  left: 8rem;
 }
 
 .link-btns .btn-container .github {
