@@ -101,6 +101,7 @@ article {
   border-radius: 50%;
   display: inline-block;
 }
+
 .social-links{
   display: flex;
   flex-direction: column;
@@ -110,12 +111,13 @@ article {
   height: 34%;
   left: 2.4rem;
   bottom: 2.4rem;
-  
+  z-index: 148;
 }
 
 .social-links a {
   color: #fff;
 }
+
 
 #slider {
   position: relative;
@@ -148,9 +150,6 @@ input[type=radio]:nth-child(5) {
 input[type=radio]:checked {
   opacity: 1;
 }
-
-
-
 
 #slider label {
   position: absolute;
@@ -202,10 +201,6 @@ input[type=radio]:checked {
   box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
   transform: translate3d(-15%, 0, -100px);
 }
-
-
-
-
 
 .project-title {
  color: #fff;
@@ -398,4 +393,8 @@ button:hover {
 
 #home {
   padding-top: 12rem;
+}
+
+.about-container img {
+  height: 90%;
 }
