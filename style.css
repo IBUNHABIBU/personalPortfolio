@@ -203,7 +203,6 @@ article {
   display: flex;
   perspective: 1400px;
   transform-style: preserve-3d;
-  background-color: violet;
 }
 
 input[type=radio] {
@@ -280,7 +279,7 @@ input[type=radio]:checked {
 }
 
 #projects {
- background-color: var(--light-blue);
+ 
 }
 
 .project-title {
@@ -290,11 +289,9 @@ input[type=radio]:checked {
  justify-content: center;
  position: relative;
  bottom: 14rem;
- background-color: yellow;
 }
 
 .project-container {
-  background-color: red;
   width: 30%;
   position: relative;
    /* bottom: 2rem; */
