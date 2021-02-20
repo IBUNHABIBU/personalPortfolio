@@ -314,8 +314,6 @@ button:hover {
   justify-content: flex-end;
   min-width: 22rem;
   align-items: center;
-  background-color: greenyellow;
-  
 }
 
 .link-btns {
@@ -351,7 +349,8 @@ button:hover {
 }
 
 .about-page {
-  width: 100%;
+  width: 90%;
+  margin-left: auto;
 }
 
 .about-container {
@@ -362,7 +361,9 @@ button:hover {
 }
 
 .about-content {
-  padding: 2rem 6rem 8rem 8rem;
+  /* padding: 2rem; */
+  display: flex;
+  flex-direction: column;
 }
 
 .about-paragraph {
@@ -378,8 +379,14 @@ button:hover {
   width: 20%;
   position: relative;
   left: 9rem;
+  /* display: flex; */
+  background-color: red;
+  
 }
 
+.about-container img {
+  max-width: 100%;
+}
 .skill-container {
   margin-top: 2rem;
   padding-top: 2rem;
@@ -536,7 +543,7 @@ button:hover {
   }
 
   .link-btns .btn-container a{
-    font-size: 4px;
+ 
   }
 
   
@@ -547,11 +554,24 @@ button:hover {
   justify-content: flex-end; */
   margin-left: auto;
   position:relative;
-  left: 6rem; 
+  left: 7rem; 
 }
 
 .link-btns .btn-container a {
   font-size: 4px;
   width: 100%;
+}
+.about-container{
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about-content{
+  width: 100%;
+}
+.about-heading {
+  width: 40%;
+  margin-right: auto;
 }
 }
