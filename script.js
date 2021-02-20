@@ -1,3 +1,10 @@
+const toggleButton = document.querySelector('.toggle-button');
+const navbarLinks = document.querySelector('.navbar-links');
+toggleButton.addEventListener('click', (e) => {
+  e.preventDefault()
+  navbarLinks.classList.toggle('active');
+})
+
 const projectHeading  = document.querySelector('.project-heading');
 const projectCaption  = document.querySelector('.project-captions');
 const stack = document.getElementById('stack');
@@ -80,4 +87,5 @@ slider.addEventListener('click', (e) => {
   }
 })
 
-const tabButtons = document.querySelectorAll('.tabs')
+const tabButtons = document.querySelectorAll('.tabs');
+
