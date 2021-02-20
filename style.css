@@ -112,17 +112,20 @@ li {
 article {
   color: #fff;
   font-family: sans-serif;
-  height: 100vh;
-  margin-bottom: 4rem;
-}
-
-article {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   height: 80vh;
 }
+/* 
+article {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+} */
 
 .home {
   display: flex;
@@ -200,6 +203,7 @@ article {
   display: flex;
   perspective: 1400px;
   transform-style: preserve-3d;
+  background-color: violet;
 }
 
 input[type=radio] {
@@ -275,24 +279,31 @@ input[type=radio]:checked {
   transform: translate3d(-15%, 0, -100px);
 }
 
+#projects {
+ background-color: var(--light-blue);
+}
+
 .project-title {
  color: #fff;
  display: flex;
  align-items: center;
  justify-content: center;
  position: relative;
- bottom: 9rem;
+ bottom: 14rem;
+ background-color: yellow;
 }
 
 .project-container {
+  background-color: red;
   width: 30%;
   position: relative;
-  bottom: 6rem;
-  right: 4rem;
+   /* bottom: 2rem; */
+  /* right: 4rem;  */
 }
 
 .project-heading {
   text-align: center;
+  text-transform: uppercase;
 }
 button:hover {
   cursor: pointer;
