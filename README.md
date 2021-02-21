@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="git@github.com:IBUNHABIBU/library.git">
-    <p align="center"> <img src="https://user-images.githubusercontent.com/55361440/87301597-7d9f1800-c52d-11ea-84e7-7a5684626b3f.png" alt="JavaScript" width="100" height="100"> </p>
+    <p align="center"> <img src="https://avatars.githubusercontent.com/u/14271563?s=400&u=713c880de0ab8f8169be51e687f365a996d5b486&v=4" alt="JavaScript" width="100" height="100"> </p>
   </a>
 
   <h2 align="center">PORTFOLIO WEBSITE</h2>
