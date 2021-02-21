@@ -48,7 +48,7 @@ const livelinkForS5 = 'https://ibunhabibuweather.netlify.app/';
 const slider = document.getElementById('slider');
 
 slider.addEventListener('click', (e) => {
-  const id = e.target.id;
+  const { id } = e.target;
   switch (id) {
     case 's1':
       projectHeading.innerText = headingForS1;
@@ -56,7 +56,6 @@ slider.addEventListener('click', (e) => {
       stack.innerText = stackForS1;
       gitHubLink.setAttribute('href', GitHublinkForS1);
       liveLink.setAttribute('href', livelinkForS1);
-
       break;
     case 's2':
       projectHeading.innerText = headingForS2;
@@ -86,5 +85,11 @@ slider.addEventListener('click', (e) => {
       gitHubLink.setAttribute('href', GitHublinkForS5);
       liveLink.setAttribute('href', livelinkForS5);
       break;
+    default:
+      projectHeading.innerText = headingForS1;
+      projectCaption.innerText = contentForS1;
+      stack.innerText = stackForS1;
+      gitHubLink.setAttribute('href', GitHublinkForS1);
+      liveLink.setAttribute('href', livelinkForS1);
   }
 });
