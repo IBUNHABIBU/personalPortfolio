@@ -31,6 +31,10 @@ p {
   color: var(--neutral-clr);
 }
 
+.social-links a {
+  color: #fff;
+}
+
 .brand-title {
   font-size: 1.5rem;
   margin: 0.5rem;
@@ -156,10 +160,6 @@ header {
   left: 2.4rem;
   bottom: 2.4rem;
   z-index: 148;
-}
-
-.social-links a {
-  color: #fff;
 }
 
 #slider {
@@ -542,7 +542,7 @@ button:hover {
   }
 
   .lang {
-    width: 100%;
+    width: 120%;
     margin: 1rem;
   }
 
@@ -553,5 +553,4 @@ button:hover {
   .about-container img {
     width: 100%;
   }
-
 }
