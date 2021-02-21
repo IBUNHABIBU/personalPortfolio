@@ -4,10 +4,10 @@ const navbarLinks = document.querySelector('.navbar-links');
 toggleButton.addEventListener('click', (e) => {
   e.preventDefault();
   navbarLinks.classList.toggle('active');
-})
+});
 
-const projectHeading  = document.querySelector('.project-heading');
-const projectCaption  = document.querySelector('.project-captions');
+const projectHeading = document.querySelector('.project-heading');
+const projectCaption = document.querySelector('.project-captions');
 const stack = document.getElementById('stack');
 const liveLink = document.querySelector('.live');
 const gitHubLink = document.querySelector('.github');
@@ -48,46 +48,43 @@ const livelinkForS5 = 'https://ibunhabibuweather.netlify.app/';
 const slider = document.getElementById('slider');
 
 slider.addEventListener('click', (e) => {
-  let id = e.target.id;
-  switch(id) {
+  const id = e.target.id;
+  switch (id) {
     case 's1':
       projectHeading.innerText = headingForS1;
       projectCaption.innerText = contentForS1;
       stack.innerText = stackForS1;
-      gitHubLink.setAttribute('href',GitHublinkForS1);
-      liveLink.setAttribute('href',livelinkForS1);
+      gitHubLink.setAttribute('href', GitHublinkForS1);
+      liveLink.setAttribute('href', livelinkForS1);
 
-    break;
+      break;
     case 's2':
       projectHeading.innerText = headingForS2;
       projectCaption.innerText = contentForS2;
       stack.innerText = stackForS2;
-      gitHubLink.setAttribute('href',GitHublinkForS2);
-      liveLink.setAttribute('href',livelinkForS2);
-    break;
+      gitHubLink.setAttribute('href', GitHublinkForS2);
+      liveLink.setAttribute('href', livelinkForS2);
+      break;
     case 's3':
       projectHeading.innerText = headingForS3;
       projectCaption.innerText = contentForS3;
       stack.innerText = stackForS3;
-      gitHubLink.setAttribute('href',GitHublinkForS3);
-      liveLink.setAttribute('href',livelinkForS3);
-    break;
+      gitHubLink.setAttribute('href', GitHublinkForS3);
+      liveLink.setAttribute('href', livelinkForS3);
+      break;
     case 's4':
       projectHeading.innerText = headingForS4;
       projectCaption.innerText = contentForS4;
       stack.innerText = stackForS4;
-      gitHubLink.setAttribute('href',GitHublinkForS4);
-      liveLink.setAttribute('href',livelinkForS4);
-    break;
+      gitHubLink.setAttribute('href', GitHublinkForS4);
+      liveLink.setAttribute('href', livelinkForS4);
+      break;
     case 's5':
       projectHeading.innerText = headingForS5;
       projectCaption.innerText = contentForS5;
       stack.innerText = stackForS5;
-      gitHubLink.setAttribute('href',GitHublinkForS5);
-      liveLink.setAttribute('href',livelinkForS5);
-    break;
+      gitHubLink.setAttribute('href', GitHublinkForS5);
+      liveLink.setAttribute('href', livelinkForS5);
+      break;
   }
-})
-
-const tabButtons = document.querySelectorAll('.tabs');
-
+});
