@@ -186,7 +186,7 @@ input[type=radio] {
 }
 
 input[type=radio]:nth-child(5) {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 input[type=radio]:checked {
@@ -212,11 +212,11 @@ input[type=radio]:checked {
 
 #s1:checked ~ #slide1,
 #s2:checked ~ #slide2,
-#s3:checked ~ #slide3, 
+#s3:checked ~ #slide3,
 #s4:checked ~ #slide4,
 #s5:checked ~ #slide5 {
   box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3), 0 12px 6px rgba(0, 0, 0, 0.2);
-  transform: translate3d(0%, 0, 0px);
+  transform: translate3d(0%, 0, 0);
 }
 
 #s1:checked ~ #slide2,
@@ -247,7 +247,7 @@ input[type=radio]:checked {
 }
 
 #s1:checked ~ #slide5,
-#s2:checked ~ #slide1, 
+#s2:checked ~ #slide1,
 #s3:checked ~ #slide2,
 #s4:checked ~ #slide3,
 #s5:checked ~ #slide4 {
@@ -256,12 +256,12 @@ input[type=radio]:checked {
 }
 
 .project-title {
- color: #fff;
- display: flex;
- align-items: center;
- justify-content: center;
- position: relative;
- bottom: 14rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 14rem;
 }
 
 .project-container {
@@ -300,7 +300,7 @@ button:hover {
 .link-btns .btn-container a {
   font-style: italic;
   color: #fff;
-  background:linear-gradient(#4196fe 10%, #3340fc);
+  background: linear-gradient(#4196fe 10%, #3340fc);
   outline: none;
   border: none;
   position: relative;
@@ -355,6 +355,7 @@ button:hover {
 .about-container img {
   max-width: 100%;
 }
+
 .skill-container {
   margin-top: 2rem;
   padding-top: 2rem;
@@ -373,7 +374,6 @@ button:hover {
 .lang {
   background: #111217;
   width: 10vw;
-  box-shadow: 4px;
   margin-bottom: 1rem;
 }
 
@@ -508,9 +508,9 @@ button:hover {
   }
 
   .btn-container {
-   margin-left: auto;
-   position: relative;
-   left: 7rem; 
+    margin-left: auto;
+    position: relative;
+    left: 7rem;
   }
 
   .link-btns .btn-container a {
