@@ -21,6 +21,7 @@ p {
   padding: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
+  color: var(--neutral-clr);
 }
 
 .nav-bar {
@@ -29,6 +30,14 @@ p {
   align-items: center;
   background-color: var(--bg);
   color: var(--neutral-clr);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 1.4rem;
+  cursor: pointer;
 }
 
 .social-links a {
@@ -50,19 +59,23 @@ p {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-  color: #fff;
-  text-transform: uppercase;
-  margin: 1.4rem;
-  cursor: pointer;
-}
-
 .navbar-links li a {
   text-decoration: none;
   color: var(--neutral-clr);
   padding: 1rem;
   display: block;
+}
+
+.link-btns .btn-container a {
+  font-style: italic;
+  color: #fff;
+  background: linear-gradient(#4196fe 10%, #3340fc);
+  outline: none;
+  border: none;
+  position: relative;
+  right: 6.2rem;
+  text-transform: capitalize;
+  font-weight: bold;
 }
 
 .navbar-links li a:hover {
@@ -99,10 +112,16 @@ header {
   width: 100%;
 }
 
+.home-container {
+  display: flex;
+  justify-content: center;
+}
+
 .home {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 }
 
 .salutation {
@@ -116,6 +135,7 @@ header {
   text-transform: uppercase;
   font-size: 3em;
   margin-top: 0.8rem;
+  color: var(--neutral-clr);
 }
 
 .home .intro {
@@ -295,18 +315,6 @@ button:hover {
   display: flex;
   justify-content: center;
   z-index: 485;
-}
-
-.link-btns .btn-container a {
-  font-style: italic;
-  color: #fff;
-  background: linear-gradient(#4196fe 10%, #3340fc);
-  outline: none;
-  border: none;
-  position: relative;
-  right: 6.2rem;
-  text-transform: capitalize;
-  font-weight: bold;
 }
 
 .link-btns .btn-container .github {
