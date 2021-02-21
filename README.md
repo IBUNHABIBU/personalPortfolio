@@ -24,8 +24,8 @@
 
 
 
-![screenshot](https://github.com/IBUNHABIBU/personalPortfolio/blob/feature/Asset/Images/form.PNG)
-![screenshot](https://github.com/IBUNHABIBU/personalPortfolio/blob/feature/Asset/Images/homepage.PNG)
+![screenshot](https://github.com/IBUNHABIBU/personalPortfolio/blob/feature/Asset/Images/portfolio.PNG)
+![screenshot](https://github.com/IBUNHABIBU/personalPortfolio/blob/feature/Asset/Images/icons.PNG)
 
 ## Built with
 * HTML
