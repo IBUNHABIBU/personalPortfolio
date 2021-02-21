@@ -33,10 +33,7 @@
 * JAVASCRIPT
 
 ## Features 
-  * Users 
-    * Adding new book 
-    * Deleting books
-    * Storing the book to local storage
+  
   
 ## Requirement 
 * HTML
@@ -48,7 +45,7 @@ Clone this repository
  `$then open the html code using desired browser` 
  
 
-## [Live demo](https://rawcdn.githack.com/IBUNHABIBU/personalPortfolio/43f8b5aa5ef6ae7d81689dd0e958fcbdf4782fff/personalPortfolio.html "Of the project") of the project
+## [Live demo](https://salum-habib-kombo.netlify.app/ "Of the project") of the project
 
 ## link to  [Video presentation](https://#"Loom")
 
