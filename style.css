@@ -49,6 +49,10 @@ a {
   margin: 0.5rem;
 }
 
+.last-name {
+  color: var(--light-blue);
+}
+
 .navbar-links ul {
   margin: 0;
   padding: 0;
