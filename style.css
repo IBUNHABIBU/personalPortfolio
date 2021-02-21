@@ -115,6 +115,7 @@ header {
 .home-container {
   display: flex;
   justify-content: center;
+  height: 90vh;
 }
 
 .home {
