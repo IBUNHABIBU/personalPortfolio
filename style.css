@@ -380,7 +380,7 @@ button:hover {
   position: relative;
   left: 9rem;
   /* display: flex; */
-  background-color: red;
+  /* background-color: red; */
   
 }
 
@@ -561,17 +561,44 @@ button:hover {
   font-size: 4px;
   width: 100%;
 }
+
 .about-container{
   flex-direction: column;
   width: 100%;
   align-items: center;
   justify-content: flex-start;
 }
+
 .about-content{
   width: 100%;
 }
+
 .about-heading {
   width: 40%;
   margin-right: auto;
+}
+
+.skill-heading{
+  width: 100%;
+}
+.lang-flex {
+  flex-direction: row;
+  width: 70%;
+  /* background-color: red; */
+  flex-wrap: wrap;
+  margin-left: 2.4rem;
+}
+.lang {
+  width: 100%;
+  margin: 1rem;
+}
+.move-down {
+  /* order: 1; */
+}
+.first-order {
+  order: 1;
+}
+.about-container img {
+  width: 100%;
 }
 }
