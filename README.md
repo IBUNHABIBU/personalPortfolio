@@ -7,7 +7,7 @@
 <br />
 
 <p align="center">
-  <a href="git@github.com:IBUNHABIBU/library.git">
+  <a href="git@github.com:IBUNHABIBU/personalPortfolio.git">
     <p align="center"> <img src="https://avatars.githubusercontent.com/u/14271563?s=400&u=713c880de0ab8f8169be51e687f365a996d5b486&v=4" alt="JavaScript" width="100" height="100"> </p>
   </a>
 
