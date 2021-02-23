@@ -41,11 +41,11 @@
 * JAVASCRIPT
 
 ## Usage
-Clone this repository 
+-> Clone this repository 
 
-navigate to the project folder
+-> navigate to the project folder
 
-then open the html code using desired browser 
+-> then open the html code using desired browser 
  
 
 ## [Live demo](https://salum-habib-kombo.netlify.app/ "Of the project") of the project
