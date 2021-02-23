@@ -17,7 +17,7 @@
 
   <p align="center">
     <a href="https://github.com/IBUNHABIBU/personalPortfolio/issues">Report Bug</a>
-    · 
+    
     <a href="https://github.com/IBUNHABIBU/personalPortfolio/issues">Request Feature</a>
   </p>
 </p>
@@ -42,7 +42,10 @@
 
 ## Usage
 Clone this repository 
- `$then open the html code using desired browser` 
+
+navigate to the project folder
+
+then open the html code using desired browser 
  
 
 ## [Live demo](https://salum-habib-kombo.netlify.app/ "Of the project") of the project
