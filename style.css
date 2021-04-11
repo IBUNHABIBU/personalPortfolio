@@ -1,4 +1,10 @@
 /* variables */
+:root {
+  --primary-clr: #1c1d22;
+  --bg: #1c1d22;
+  --neutral-clr: #fff;
+  --light-blue: #007bff;
+}
 
 /* reset */
 
