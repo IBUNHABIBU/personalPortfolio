@@ -61,7 +61,7 @@
 ## your support 
 Give a :star: if you liked this project 
 ## Acknowledgments
-Credits goes to
+Credits goes to Gbekele Osho whom I used his design
 
 - All of my standup team for their feedback that make me to improve technically
 ## 📝 License
