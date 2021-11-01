@@ -233,6 +233,30 @@ input[type=radio]:checked {
   transition: transform 400ms ease;
 }
 
+#slide1 {
+  background-color: rebeccapurple;
+}
+
+
+#slide2 {
+  background-color: rgb(153, 51, 93);
+}
+
+
+#slide3 {
+  background: rgb(51, 153, 51);
+}
+
+
+#slide4 {
+  background-color: rgb(239, 239, 240);
+}
+
+
+#slide5 {
+  background-color: rgb(245, 18, 18);
+}
+
 #s1:checked ~ #slide1,
 #s2:checked ~ #slide2,
 #s3:checked ~ #slide3,
@@ -242,6 +266,7 @@ input[type=radio]:checked {
   transform: translate3d(0%, 0, 0);
   /* width: 60%;
   height: 60%; */
+  background-color: rebeccapurple;
 }
 
 #s1:checked ~ #slide2,
