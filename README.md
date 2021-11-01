@@ -11,7 +11,7 @@
     <p align="center"> <img src="https://avatars.githubusercontent.com/u/14271563?s=400&u=713c880de0ab8f8169be51e687f365a996d5b486&v=4" alt="JavaScript" width="100" height="100"> </p>
   </a>
 
-  <h2 align="center">PORTFOLIO WEBSITE</h2>
+  <h2 align="center">PERSONAL PORTFOLIO WEBSITE</h2>
   <h3 align="center">This is my portfolio website to show my work</h3>
 
 
