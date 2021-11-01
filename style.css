@@ -220,8 +220,6 @@ input[type=radio]:checked {
 
 #slider label {
   position: absolute;
-  width: 60%;
-  height: 60%;
   left: 0;
   top: 0;
   color: white;
@@ -242,6 +240,8 @@ input[type=radio]:checked {
 #s5:checked ~ #slide5 {
   box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3), 0 12px 6px rgba(0, 0, 0, 0.2);
   transform: translate3d(0%, 0, 0);
+  /* width: 60%;
+  height: 60%; */
 }
 
 #s1:checked ~ #slide2,
