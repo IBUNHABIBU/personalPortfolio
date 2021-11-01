@@ -33,7 +33,7 @@
 * JAVASCRIPT
 
 ## Features 
-  
+  - It is mobile responsive
   
 ## Requirement 
 * HTML
