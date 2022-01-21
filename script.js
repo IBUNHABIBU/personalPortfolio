@@ -12,7 +12,7 @@ const stack = document.getElementById('stack');
 const liveLink = document.querySelector('.live');
 const gitHubLink = document.querySelector('.github');
 
-const headingForS1 = 'Grid Frame Work';
+const headingForS1 = 'Recipe zone';
 const headingForS2 = 'Life style article';
 const headingForS3 = 'News week';
 const headingForS4 = 'Social';
