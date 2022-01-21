@@ -400,7 +400,7 @@ button:hover {
   color: #fff;
   height: 3rem;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   text-transform: uppercase;
 }
 
@@ -442,11 +442,13 @@ button:hover {
 .email {
   font-size: 1rem;
   text-align: center;
+  padding: 0.4rem;
 }
 
 .phone {
   font-size: 1rem;
   text-align: center;
+  padding: 0.4rem;
 }
 
 .contact-info {
