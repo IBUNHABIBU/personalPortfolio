@@ -14,27 +14,27 @@ const gitHubLink = document.querySelector('.github');
 
 const headingForS1 = 'Recipe zone';
 const headingForS2 = 'Life style article';
-const headingForS3 = 'News week';
+const headingForS3 = 'Grid Frame Work';
 const headingForS4 = 'Social';
 const headingForS5 = 'weather app';
 
 const contentForS1 = 'A browsable list of items that you can filter and access to the details of one item. All data are meals recipes that come from TheMealDb API';
 const contentForS2 = 'In this project users will be posting their articles with background images and ability to vote for a good article and the most voted article is placed on the front page with the big Image.';
-const contentForS3 = 'This is the HTML and CSS project to implement the concepts that I have learnt in Bootstrap.';
+const contentForS3 = 'The project to design custom made grid-based framework using CSS Grid.';
 const contentForS4 = ' A social media application where user may signup connect with friends, posting and liking friends post.';
 const contentForS5 = 'Is the Javascript quiz to implement the concept of API. I made a simple page to fetch for weather data.';
 
 
 const stackForS1 = 'Stack: React and Redux';
 const stackForS2 = 'Stack: Ruby on rails, RSpec';
-const stackForS3 = 'Stack: Bootstrap';
+const stackForS3 = 'Stack: CSS Grid';
 const stackForS4 = 'Stack: Ruby on rails, RSpec';
 const stackForS5 = 'Stack: Javascript, Webpack, OpenWeatherAPI';
 
 
 const GitHublinkForS1 = 'https://https://github.com/IBUNHABIBU/catalogue_of_recipes';
 const GitHublinkForS2 = 'https://github.com/IBUNHABIBU/lifestyle_articles';
-const GitHublinkForS3 = 'https://github.com/IBUNHABIBU/catalogue_of_recipes';
+const GitHublinkForS3 = 'https://github.com/IBUNHABIBU/GRID-FRAMEWORK';
 const GitHublinkForS4 = 'https://github.com/IBUNHABIBU/ror-social-scaffold';
 const GitHublinkForS5 = 'https://github.com/IBUNHABIBU/weather-app';
 
