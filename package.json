@@ -1,0 +1,23 @@
+{
+  "name": "personalPortfolio",
+  "version": "1.0.0",
+  "description": "[![Contributors][contributors-shield]][contributors-url]\r [![Forks][forks-shield]][forks-url]\r [![Stargazers][stars-shield]][stars-url]\r [![Issues][issues-shield]][issues-url]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IBUNHABIBU/personalPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IBUNHABIBU/personalPortfolio/issues"
+  },
+  "homepage": "https://github.com/IBUNHABIBU/personalPortfolio#readme",
+  "dependencies": {
+    "tailwindcss": "^3.0.15"
+  }
+}
