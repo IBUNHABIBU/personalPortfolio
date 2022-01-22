@@ -1,10 +1,10 @@
 {
-  "name": "personalPortfolio",
+  "name": "personalportfolio",
   "version": "1.0.0",
   "description": "[![Contributors][contributors-shield]][contributors-url]\r [![Forks][forks-shield]][forks-url]\r [![Stargazers][stars-shield]][stars-url]\r [![Issues][issues-shield]][issues-url]",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tailwindcss -i src/style.css -o public/output.css --watch"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/IBUNHABIBU/personalPortfolio#readme",
   "dependencies": {
     "tailwindcss": "^3.0.15"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.5"
   }
 }
