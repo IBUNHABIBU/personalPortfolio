@@ -1,3 +1,5 @@
+import './style.css';
+
 const toggleButton = document.querySelector('.toggle-button');
 const navbarLinks = document.querySelector('.navbar-links');
 
