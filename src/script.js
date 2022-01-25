@@ -24,20 +24,17 @@ const contentForS3 = 'The project to design custom made grid-based framework usi
 const contentForS4 = ' A social media application where user may signup connect with friends, posting and liking friends post.';
 const contentForS5 = 'Is the Javascript quiz to implement the concept of API. I made a simple page to fetch for weather data.';
 
-
 const stackForS1 = 'Stack: React and Redux';
 const stackForS2 = 'Stack: Ruby on rails, RSpec';
 const stackForS3 = 'Stack: CSS Grid';
 const stackForS4 = 'Stack: Ruby on rails, RSpec';
 const stackForS5 = 'Stack: Javascript, Webpack, OpenWeatherAPI';
 
-
 const GitHublinkForS1 = 'https://https://github.com/IBUNHABIBU/catalogue_of_recipes';
 const GitHublinkForS2 = 'https://github.com/IBUNHABIBU/lifestyle_articles';
 const GitHublinkForS3 = 'https://github.com/IBUNHABIBU/GRID-FRAMEWORK';
 const GitHublinkForS4 = 'https://github.com/IBUNHABIBU/ror-social-scaffold';
 const GitHublinkForS5 = 'https://github.com/IBUNHABIBU/weather-app';
-
 
 const livelinkForS1 = 'hhttps://slm-foodrecipe.herokuapp.com/';
 const livelinkForS2 = 'https://lifestylearticle.herokuapp.com/';

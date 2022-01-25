@@ -4,7 +4,9 @@
   "description": "[![Contributors][contributors-shield]][contributors-url]\r [![Forks][forks-shield]][forks-url]\r [![Stargazers][stars-shield]][stars-url]\r [![Issues][issues-shield]][issues-url]",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i src/style.css -o public/output.css --watch"
+    "build": "tailwindcss -i src/style.css -o public/output.css --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix --ext .js,.jsx ."
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,9 @@
     "@babel/preset-env": "^7.16.11",
     "babel-loader": "^8.2.3",
     "css-loader": "^6.5.1",
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.25.4",
     "postcss": "^8.4.5",
     "postcss-loader": "^6.2.1",
     "postcss-preset-env": "^7.2.3",
