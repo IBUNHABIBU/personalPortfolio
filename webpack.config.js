@@ -13,11 +13,24 @@ const config  = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'index.html',
+      template: './src/index.html',
+      filename: './index.html',
     }),
   ],
+  devServer: {
+    port: 1234,
+    contentBase: path.join(__dirname, 'dist'),
+  },
+
   module: {
     rules: [
+      {
+        test: /\.html$/,
+        exclude: [/node_modules/, require.resolve('./src/index.html')],
+        use: [
+          'html-loader',
+        ]
+      },
       {
         test: /\.(js|jsx)$/i,
         loader: 'babel-loader',
