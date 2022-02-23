@@ -1,33 +1,44 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
+const isProduction = process.env.NODE_ENV === 'production';
 
-module.exports = {
-  mode: 'production',
+const stylesHandler = 'style-loader';
+
+const config  = {
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
+    path: path.resolve(__dirname, './dist'),
+    filename: 'main.js',
+    clean: true,
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: 'index.html',
+    }),
+  ],
   module: {
     rules: [
       {
-        test: /\.js$/i,
-        include: path.resolve(__dirname, 'src'),
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env'],
-          },
-        },
+        test: /\.(js|jsx)$/i,
+        loader: 'babel-loader',
       },
       {
         test: /\.css$/i,
-        include: path.resolve(__dirname, 'src'),
-        use: ['style-loader', 'css-loader', 'postcss-loader'],
+        use: [stylesHandler, 'css-loader', 'postcss-loader'],
+      },
+      {
+        test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/i,
+        type: 'asset',
       },
     ],
   },
-  devServer: {
-    static: 'dist',
-    watchContentBase: true,
-  },
+};
+
+module.exports = () => {
+  if (isProduction) {
+    config.mode = 'production';
+  } else {
+    config.mode = 'development';
+  }
+  return config;
 };
