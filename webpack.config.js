@@ -18,8 +18,11 @@ const config  = {
     }),
   ],
   devServer: {
+    static: {
+      directory: path.join(__dirname, 'dist'),
+    },
+    compress: true,
     port: 1234,
-    contentBase: path.join(__dirname, 'dist'),
   },
 
   module: {
