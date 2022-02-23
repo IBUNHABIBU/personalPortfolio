@@ -4,7 +4,7 @@
   "description": "[![Contributors][contributors-shield]][contributors-url]\r [![Forks][forks-shield]][forks-url]\r [![Stargazers][stars-shield]][stars-url]\r [![Issues][issues-shield]][issues-url]",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i src/style.css -o public/output.css --watch",
+    "build": "tailwindcss -i src/style.css -o dist/output.css --watch",
     "lint": "eslint .",
     "lint:fix": "eslint --fix --ext .js,.jsx ."
   },
