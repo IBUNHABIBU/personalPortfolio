@@ -29,7 +29,7 @@ const config  = {
     rules: [
       {
         test: /\.html$/,
-        exclude: [/node_modules/, require.resolve('./src/index.html')],
+        // exclude: [/node_modules/, require.resolve('./src/index.html')],
         use: [
           'html-loader',
         ]
@@ -44,7 +44,15 @@ const config  = {
       },
       {
         test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/i,
-        type: 'asset',
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: "[name].[hash].[ext]",
+              outputPath: "imgs"
+            }
+          },
+        ],
       },
     ],
   },
